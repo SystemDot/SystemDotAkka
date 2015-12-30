@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SystemDotAkka</id>
+        <version>1.0.0</version>
+        <title>SystemDot.Akka</title>
+        <authors>Chris Sampson,James Goodenough</authors>
+        <owners>Chris Sampson,James Goodenough</owners>
+        <projectUrl>https://github.com/SystemDot/SystemDotCore</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Akka support for system creation and cqrs style actors</description>
+        <summary>Akka support for system creation and cqrs style actors</summary>
+        <copyright>SystemDot 2015</copyright>
+        <language>en-GB</language>
+        <tags>Akka, DDD, CQRS</tags>
+        <dependencies>
+          <dependency id="Newtonsoft.Json" version="7.0.1" />
+          <dependency id="Akka" version="1.0.5" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Build\SystemDot.Akka.dll" target="lib\net\SystemDot.Akka.dll" />
+	      <file src="Build\SystemDot.Akka.pdb" target="lib\net\SystemDot.Akka.pdb" />
+    </files>
+</package>
